@@ -16,7 +16,6 @@ Gem::Specification.new do |gem|
   gem.version       = "0.3.0"
 
   # dependencies
-  gem.add_runtime_dependency     "net-irc", ">= 0.0.9"
   gem.add_development_dependency "rspec",   ">= 2.11.0"
   gem.add_development_dependency 'rake',    '>= 0.9.2.2' # need for Travis CI
   gem.add_development_dependency 'rdoc',    '>= 3.11'    # need for Travis CI
